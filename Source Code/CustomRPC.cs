@@ -1,4 +1,4 @@
-﻿namespace FoolersMod
+﻿namespace KingsCourt
 {
     enum CustomRPC
     {
