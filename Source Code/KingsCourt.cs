@@ -37,7 +37,7 @@ namespace KingsCourt
         public static CustomNumberOption MeetingCooldown = CustomOption.AddNumber("MeetingCooldown", "Meeting Cooldown", true, 50, 40, 60, 5);
         public override void Load()
         {
-            WatermarkManager.VersionText = "\n<color=#00FA9A>Kings Court</color> \n<color=#FFD11AFF>By MengTube & PixelKing</color> \n<color=#18d5b9>Button Art Plus Flippy</color>";
+            WatermarkManager.VersionText = "\n<color=#00FA9A>Kings Court</color> \n<color=#FFD11AFF>By MengTube & PixelKing</color> \n<color=#18d5b9>Button Art C.A.100</color>";
             WatermarkManager.VersionTextOffset = new Vector3(0f, -0.65f, 0f);
             WatermarkManager.PingText = "\nMade By <color=#FFD11AFF>MengTube & PixelKing</color> \n<color=#2eadff>dsc.gg/betterau</color>";
             WatermarkManager.PingTextOffset = new Vector3(-1.4f, 0f, 0f);
