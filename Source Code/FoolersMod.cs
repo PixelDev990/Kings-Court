@@ -8,13 +8,13 @@ using PeasAPI.Managers;
 using Reactor;
 using UnityEngine;
 
-namespace FoolersMod
+namespace KingsCourt
 {
     [BepInPlugin(Id)]
     [BepInProcess("Among Us.exe")]
     [BepInDependency(ReactorPlugin.Id)]
     [BepInDependency(PeasApi.Id)]
-    public class FoolersModPlugin : BasePlugin
+    public class KingsCourtPlugin : BasePlugin
     {
         public const string Id = "pixeldev990.amongus.kingscourt";
 
@@ -39,7 +39,7 @@ namespace FoolersMod
         {
             WatermarkManager.VersionText = "\n<color=#00FA9A>Kings Court</color> \n<color=#FFD11AFF>By MengTube & PixelKing</color> \n<color=#18d5b9>Button Art Plus Flippy</color>";
             WatermarkManager.VersionTextOffset = new Vector3(0f, -0.65f, 0f);
-            WatermarkManager.PingText = "\nMade By <color=#FFD11AFF>MengTube</color> \n<color=#2eadff>youtube.com/mengtube</color>";
+            WatermarkManager.PingText = "\nMade By <color=#FFD11AFF>MengTube & PixelKing</color> \n<color=#2eadff>dsc.gg/betterau</color>";
             WatermarkManager.PingTextOffset = new Vector3(-1.4f, 0f, 0f);
             PeasApi.AccountTabOffset = new Vector3(0f, -0.9f, 0f);
             PeasApi.AccountTabOnlyChangesName = true;
