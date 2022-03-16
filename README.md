@@ -1,4 +1,4 @@
-# Foolers Mod
+# Kings Court (Updated version of [FoolersMod](https://github.com/Mengtube/Foolers-Mod))
 # Roles:
 - [Jester](#jester)
 - [Trickster](#trickster)
@@ -8,30 +8,27 @@
 # Releases & Compatibility:
 | Mod Version | Among Us Version | Download Link |
 |:-:|:-:|:-:|
-|v1.0.0|v2021.6.30 & v2021.7.20|<a href="https://github.com/MengTube/Foolers-Mod/releases/download/v1.0.0/Foolers.Mod.v1.0.0.zip">Download|
-|v1.0.1|v2021.6.30 & v2021.7.20|<a href="https://github.com/MengTube/Foolers-Mod/releases/download/v1.0.1/Foolers.Mod.v1.0.1.zip">Download|
+|v1.0.0|v2021.6.30 & v2021.7.20|<a href="">Download|
+|v1.0.1|v2021.6.30 & v2021.7.20|<a href="">Download|
 
 # Installation:
 ## Requirements:
 - Among Us
   - Steam Version
-  - Epic Games Version
-  - Itch.io Version
 
 ## Installation Guide:
-1. [Download](https://github.com/MengTube/Foolers-Mod/releases/download/v1.0.1/Foolers.Mod.v1.0.1.zip) the Foolers Mod.
+1. [Download](https://github.com/MengTube/Kings-Court/releases/download/v1.0.1/Foolers.Mod.v1.0.1.zip) the Foolers Mod.
 2. Extract the `.zip` file.
 3. Make a copy of your Among Us (Optional).
 4. Copy the contents inside the extracted file.
 5. Paste it in your Among Us directory.
 6. Launch your Among Us. It might take a while to launch.
 
-# Other Places To Get This Mod:
-- [Mod Manager](https://mm.matux.fr)
+
   
 # Issues/Bugs/Suggestions:
-If you have any issues, or if you found a bug, or if you have suggestions regarding the Foolers Mod, feel free to [raise an issue](https://github.com/MengTube/Foolers-Mod/issues/new) through GitHub.\
-You can also join my [Discord Server](https://discord.gg/tqR4uJTbcz) for help and support.
+If you have any issues, or if you found a bug, or if you have suggestions regarding the Foolers Mod, feel free to [raise an issue](https://github.com/PixelDev990/Kings-Court/issues/new) through GitHub.\
+You can also join the [Discord Server](https://dsc.gg/betterau) for help and support.
 
 # Roles:
 ## Jester
@@ -81,8 +78,7 @@ Meeting: Makes a random player who is not a Troll call an emergency meeting
 [PeasAPI](https://github.com/Peasplayer/PeasAPI) - The API used to simplify the creation of this mod\
 [Reactor Essentials](https://github.com/DorCoMaNdO/Reactor-Essentials) - Used for creating custom options\
 [Peasplayer](https://github.com/Peasplayer) - An amazing developer who helped me a lot with this mod\
-[C.A 100](https://www.youtube.com/channel/UCyjXUVd_kmeMmQuxwM2Gwiw) - A talented artist who drew the button art for this mod\
-[Matux](https://matux.fr) - Allowing me to use his custom Among Us server
+[Mengtube](https://github.com/Mengtube) - Some code used\
 
 #
 <p align="center">This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC.</p>
