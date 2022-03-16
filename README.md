@@ -1,15 +1,15 @@
-# Kings Court (Updated version of [FoolersMod](https://github.com/Mengtube/Foolers-Mod))
+# Kings Court (Updated version of [FoolersMod](https://github.com/PixelDev990/Kings-Court))
 # Roles:
 - [Jester](#jester)
 - [Trickster](#trickster)
 - [Joker](#joker)
 - [Troll](#troll)
+- More will be added
 
 # Releases & Compatibility:
 | Mod Version | Among Us Version | Download Link |
 |:-:|:-:|:-:|
-|v1.0.0|v2021.6.30 & v2021.7.20|<a href="">Download|
-|v1.0.1|v2021.6.30 & v2021.7.20|<a href="">Download|
+|v1.0.0|v2022.2.8|<a href="">Coming Soon|
 
 # Installation:
 ## Requirements:
@@ -17,7 +17,7 @@
   - Steam Version
 
 ## Installation Guide:
-1. [Download](https://github.com/MengTube/Kings-Court/releases/download/v1.0.1/Foolers.Mod.v1.0.1.zip) the Foolers Mod.
+1. [Download](https://github.com/PixelDev990/Kings-Court/releases/download/v1.0.1/Foolers.Mod.v1.0.1.zip) the Foolers Mod.
 2. Extract the `.zip` file.
 3. Make a copy of your Among Us (Optional).
 4. Copy the contents inside the extracted file.
@@ -78,7 +78,7 @@ Meeting: Makes a random player who is not a Troll call an emergency meeting
 [PeasAPI](https://github.com/Peasplayer/PeasAPI) - The API used to simplify the creation of this mod\
 [Reactor Essentials](https://github.com/DorCoMaNdO/Reactor-Essentials) - Used for creating custom options\
 [Peasplayer](https://github.com/Peasplayer) - An amazing developer who helped me a lot with this mod\
-[Mengtube](https://github.com/Mengtube) - Some code used\
+[MengTube](https://github.com/PixelDev990) - Made the original mod\
 
 #
 <p align="center">This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC.</p>
