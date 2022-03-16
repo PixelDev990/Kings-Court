@@ -7,7 +7,7 @@ using PeasAPI.Roles;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace FoolersMod
+namespace KingsCourt
 {
     [RegisterCustomRole]
     class Trickster : BaseRole
@@ -30,7 +30,7 @@ namespace FoolersMod
 
         public override Color Color => new Color(211f / 255f, 0f / 255f, 255f / 255f);
 
-        public override int Limit => (int)FoolersModPlugin.TricksterAmount.GetValue();
+        public override int Limit => (int)KingsCourtPlugin.TricksterAmount.GetValue();
 
         public override Team Team => Team.Alone;
 
