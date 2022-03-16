@@ -9,7 +9,7 @@ using Reactor;
 using Reactor.Networking;
 using UnityEngine;
 
-namespace FoolersMod
+namespace KingsCourt
 {
     [RegisterCustomRole]
     class Troll : BaseRole
@@ -32,7 +32,7 @@ namespace FoolersMod
 
         public override Color Color => new Color(0f / 255f, 255f / 255f, 0f / 255f);
 
-        public override int Limit => (int)FoolersModPlugin.TrollAmount.GetValue();
+        public override int Limit => (int)KingsCourtPlugin.TrollAmount.GetValue();
 
         public override Team Team => Team.Alone;
 
@@ -59,8 +59,8 @@ namespace FoolersMod
 
                     Rpc<TrollConfuseAbilityRpc>.Instance.Send(new TrollConfuseAbilityRpc.Data(PlayerControl.LocalPlayer));
                 }
-            }, FoolersModPlugin.ConfuseCooldown.GetValue(),
-            Utility.CreateSprite("FoolersMod.Resources.Confuse.png"), new Vector2(0.02f, 1.25f), true, this, true, "<size=90%>CONFUSE", new Vector2(-0.03f, -0.75f));
+            }, KingsCourtPlugin.ConfuseCooldown.GetValue(),
+            Utility.CreateSprite("KingsCourt.Resources.Confuse.png"), new Vector2(0.02f, 1.25f), true, this, true, "<size=90%>CONFUSE", new Vector2(-0.03f, -0.75f));
 
             MeetingButton = new RoleButton(() =>
             {
@@ -73,8 +73,8 @@ namespace FoolersMod
                 }
 
                 notTroll[Random.Range(0, notTroll.Count)].CmdReportDeadBody(null);
-            }, FoolersModPlugin.MeetingCooldown.GetValue(),
-            Utility.CreateSprite("FoolersMod.Resources.Meeting.png"), Vector2.zero, true, this, true, "<size=90%>MEETING", new Vector2(0f, -0.6f));
+            }, KingsCourtPlugin.MeetingCooldown.GetValue(),
+            Utility.CreateSprite("KingsCourt.Resources.Meeting.png"), Vector2.zero, true, this, true, "<size=90%>MEETING", new Vector2(0f, -0.6f));
         }
 
         public override void OnUpdate()
@@ -89,9 +89,9 @@ namespace FoolersMod
     }
 
     [RegisterCustomRpc((uint)CustomRPC.TrollConfuseAbility)]
-    public class TrollConfuseAbilityRpc : PlayerCustomRpc<FoolersModPlugin, TrollConfuseAbilityRpc.Data>
+    public class TrollConfuseAbilityRpc : PlayerCustomRpc<KingsCourtPlugin, TrollConfuseAbilityRpc.Data>
     {
-        public TrollConfuseAbilityRpc(FoolersModPlugin plugin, uint id) : base(plugin, id)
+        public TrollConfuseAbilityRpc(KingsCourtPlugin plugin, uint id) : base(plugin, id)
         {
         }
 
