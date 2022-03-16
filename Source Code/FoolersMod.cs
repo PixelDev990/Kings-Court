@@ -16,7 +16,7 @@ namespace FoolersMod
     [BepInDependency(PeasApi.Id)]
     public class FoolersModPlugin : BasePlugin
     {
-        public const string Id = "mengtube.amongus.foolersmod";
+        public const string Id = "pixeldev990.amongus.kingscourt";
 
         public Harmony Harmony { get; } = new Harmony(Id);
 
@@ -37,14 +37,14 @@ namespace FoolersMod
         public static CustomNumberOption MeetingCooldown = CustomOption.AddNumber("MeetingCooldown", "Meeting Cooldown", true, 50, 40, 60, 5);
         public override void Load()
         {
-            WatermarkManager.VersionText = "\n<color=#00FA9A>Foolers Mod</color> \n<color=#FFD11AFF>By MengTube</color> \n<color=#18d5b9>Button Art By C.A 100</color>";
+            WatermarkManager.VersionText = "\n<color=#00FA9A>Kings Court</color> \n<color=#FFD11AFF>By MengTube & PixelKing</color> \n<color=#18d5b9>Button Art Plus Flippy</color>";
             WatermarkManager.VersionTextOffset = new Vector3(0f, -0.65f, 0f);
             WatermarkManager.PingText = "\nMade By <color=#FFD11AFF>MengTube</color> \n<color=#2eadff>youtube.com/mengtube</color>";
             WatermarkManager.PingTextOffset = new Vector3(-1.4f, 0f, 0f);
             PeasApi.AccountTabOffset = new Vector3(0f, -0.9f, 0f);
             PeasApi.AccountTabOnlyChangesName = true;
 
-            CustomServerManager.RegisterServer("matux.fr", "152.228.160.91", 22023);
+            CustomServerManager.RegisterServer("TestServer", "152.228.160.91", 22023);
 
             CustomOption.ShamelessPlug = false;
             CustomOption.HudTextScroller = false;
