@@ -9,7 +9,7 @@
 # Releases & Compatibility:
 | Mod Version | Among Us Version | Download Link |
 |:-:|:-:|:-:|
-|v1.0.0|v2022.2.8|<a href="">Coming Soon|
+|v1.0.0|Latest Steam Version|<a href="">Coming Soon|
 
 # Installation:
 ## Requirements:
