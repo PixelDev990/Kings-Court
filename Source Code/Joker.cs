@@ -6,7 +6,7 @@ using PeasAPI.Roles;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace FoolersMod
+namespace KingsCourt
 {
     [RegisterCustomRole]
     class Joker : BaseRole
@@ -29,7 +29,7 @@ namespace FoolersMod
 
         public override Color Color => new Color(0f / 255f, 167f / 255f, 255f / 255f);
 
-        public override int Limit => (int)FoolersModPlugin.JokerAmount.GetValue();
+        public override int Limit => (int)KingsCourtPlugin.JokerAmount.GetValue();
 
         public override Team Team => Team.Alone;
 
