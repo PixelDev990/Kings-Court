@@ -17,7 +17,7 @@
   - Steam Version
 
 ## Installation Guide:
-1. [Download]() the Foolers Mod.
+1. [Download]() the Mod.
 2. Extract the `.zip` file.
 3. Make a copy of your Among Us (Optional).
 4. Copy the contents inside the extracted file.
