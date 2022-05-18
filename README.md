@@ -79,6 +79,7 @@ Meeting: Makes a random player who is not a Troll call an emergency meeting
 [Reactor Essentials](https://github.com/DorCoMaNdO/Reactor-Essentials) - Used for creating custom options\
 [Peasplayer](https://github.com/Peasplayer) - An amazing developer who helped me a lot with this mod\
 [MengTube](https://github.com/PixelDev990) - Made the original mod
+[Polus.gg](https://github.com/polusgg)
 
 #
 <p align="center">This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC.</p>
